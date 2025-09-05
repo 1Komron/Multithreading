@@ -28,7 +28,7 @@
 
     | Xususiyat             | Process                                         | Thread                                   |
     |-----------------------|-------------------------------------------------|------------------------------------------|
-    | Pamyat (Memory)       | Har bir process o'ziga alohida                  | Umumiy pamyat bo'lishiladi               | 
+    | Xotria (Memory)       | Har bir process o'ziga alohida                  | Umumiy xotira bo'lishiladi               | 
     | Stack                 | Umumiy emas                                     | Har bir thread uchun alohida stack       |
     | Yaratish narxi        | Qimmat (resurs ko'p oladi)                      | Arzonroq                                 |
     | Ta’siri               | Boshqa processlarga ta’sir qilmaydi             | Boshqa threadlarga ta’sir qilishi mumkin |
