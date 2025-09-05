@@ -24,13 +24,17 @@
   Processlarni o'lishi uning ichidagi barcha Threadlarni o'ldiradi.
   Threadning o'lishi faqat o'sha Threadga ta'sir qiladi.
 
-  | Xususiyat             | Process                                         | Thread                                   |
-      |-----------------------|-------------------------------------------------|------------------------------------------|
-  | Pamyat (Memory)       | Har bir process o'ziga alohida                  | Umumiy pamyat bo'lishiladi               | 
-  | Stack                 | Umumiy emas                                     | Har bir thread uchun alohida stack       |
-  | Yaratish narxi        | Qimmat (resurs ko'p oladi)                      | Arzonroq                                 |
-  | Ta’siri               | Boshqa processlarga ta’sir qilmaydi             | Boshqa threadlarga ta’sir qilishi mumkin |
-  | O‘lim (termination)   | Process o‘lsa, ichidagi barcha threadlar o‘ladi | Thread o‘lsa, faqat o‘zi to‘xtaydi       |
+---
+
+    | Xususiyat             | Process                                         | Thread                                   |
+    |-----------------------|-------------------------------------------------|------------------------------------------|
+    | Pamyat (Memory)       | Har bir process o'ziga alohida                  | Umumiy pamyat bo'lishiladi               | 
+    | Stack                 | Umumiy emas                                     | Har bir thread uchun alohida stack       |
+    | Yaratish narxi        | Qimmat (resurs ko'p oladi)                      | Arzonroq                                 |
+    | Ta’siri               | Boshqa processlarga ta’sir qilmaydi             | Boshqa threadlarga ta’sir qilishi mumkin |
+    | O‘lim (termination)   | Process o‘lsa, ichidagi barcha threadlar o‘ladi | Thread o‘lsa, faqat o‘zi to‘xtaydi       |
+
+---
 
 # Qisqa tushunchalar:
 
